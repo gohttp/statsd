@@ -13,3 +13,12 @@
  - `response.errors.server` (counter) server errors
  - `response.duration` (timer) request duration
  - `response.size` (timer) response size in bytes
+
+## Links
+
+ - https://github.com/statsd/client-interface - interface
+ - https://github.com/statsd/client - client
+
+# License
+
+ MIT
