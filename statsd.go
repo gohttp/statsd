@@ -1,4 +1,4 @@
-package logger
+package statsd
 
 import "github.com/statsd/client-interface"
 import "net/http"
