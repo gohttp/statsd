@@ -34,6 +34,9 @@ func New(stats statsd.Client) func(http.Handler) http.Handler {
 			// request count
 			stats.Incr("requests")
 
+			// request size
+			stats.Histogram("request.size", int(req.ContentLength))
+
 			// serve
 			h.ServeHTTP(res, req)
 
