@@ -8,6 +8,7 @@
 ## Metrics
 
  - `requests` (counter) request count
+ - `requests.method.<method>` (counter) requests by method
  - `request.size` (timer) request content-length
  - `response.ok` (counter) successful requests
  - `response.errors.client` (counter) client errors
